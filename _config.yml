@@ -1,7 +1,5 @@
-remote_theme: SdtElectronics/jekyll-theme-antarctica
+theme: jekyll-theme-minimal
 title: 
   Wang-Xiaoyu
   @TDOS
 description: Ph.D. in Jilin University
-
-theme: jekyll-theme-minimal

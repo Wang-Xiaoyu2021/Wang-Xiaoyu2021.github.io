@@ -1,16 +1,17 @@
 # 团队成员数据
-# role 取值: pi / postdoc / phd / ms / ra / alumni
+# role 取值: leader / postdoc / phd / ms / ra / alumni
 # photo 可替换为成员真实照片；name 为中文名，name_en 为英文名
-- name: 王晓宇
+- name: 王啸宇
   name_en: Xiaoyu Wang
-  role: pi
-  role_zh: 教授 / 课题组长
-  role_en: Professor / Group Leader
+  role: leader
+  role_zh: 小组组长 / Group Leader
+  role_en: Group Leader
   email: wang.xiaoyu@example.edu.cn
   photo: /assets/images/avatars/avatar-pi.svg
   homepage: ""
-  interests_zh: 机器学习、材料基因组、高通量计算与数据驱动材料设计
-  interests_en: Machine learning, materials genomics, high-throughput computation and data-driven materials design
+  scholar: "https://scholar.google.com.hk/citations?user=c3w343cAAAAJ&hl=zh-CN"
+  interests_zh: 第一性原理计算、光电半导体材料、钙钛矿太阳能电池、材料信息学
+  interests_en: First-principles calculations, optoelectronic semiconductor materials, perovskite solar cells, materials informatics
   status: current
 
 - name: 陈思远

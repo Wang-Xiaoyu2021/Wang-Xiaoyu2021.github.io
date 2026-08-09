@@ -5,7 +5,7 @@ active: about
 permalink: /en/about/
 ---
 {% assign ui = site.data.ui[page.lang] %}
-{% include page-hero.html title="About Us" subtitle="WANG group for AI-assisted Materials Design & Innovation." %}
+{% include page-hero.html title="About Us" subtitle="ADIWANG Team — a research subgroup of Prof. Lijun Zhang's group at Jilin University, focusing on AI-assisted design and innovation of optoelectronic materials." %}
 
 <div class="section section-alt">
   <div class="container">
@@ -13,27 +13,27 @@ permalink: /en/about/
       <h2 class="section-title">Who We Are</h2>
     </div>
     <div class="prose">
-      <p>The WANG group, hosted by the School of Materials Science and Engineering, focuses on applying <strong>artificial intelligence and data-driven methods</strong> to the design, discovery and optimization of materials. Addressing grand challenges in energy, catalysis and advanced manufacturing, we build a "computation–data–experiment" paradigm for accelerated materials research across machine learning, high-throughput computation and automated experiments.</p>
-      <p>Our research spans materials genomics, machine-learned interatomic potentials, generative materials design and LLM-powered materials knowledge systems. Our work has been published in leading journals such as Nature Communications, JACS and Advanced Materials. We highly value interdisciplinary collaboration and maintain close partnerships with universities, institutes and industry at home and abroad.</p>
-      <p>We are always looking for talented postdocs, PhD students and master students interested in the intersection of AI and materials science. Join us to explore AI-driven materials innovation!</p>
+      <p>ADIWANG Team is a research subgroup affiliated with Prof. Lijun Zhang's group at Jilin University, led by Dr. Xiaoyu Wang. We focus on combining <strong>first-principles calculations with artificial intelligence</strong> for the design, discovery and optimization of optoelectronic semiconductor materials.</p>
+      <p>Our research spans electronic structure calculations, defect passivation and interface engineering, photovoltaic device simulation, and materials informatics infrastructure, with a focus on perovskite and emerging semiconductor optoelectronic materials. Our results have been published in leading journals such as Science, Nature, Nature Energy, Nature Communications, Advanced Materials and National Science Review.</p>
+      <p>We are always looking for talented postdocs, PhD students and master students interested in computational materials science, optoelectronic materials and AI. Join us to explore AI-assisted innovation of optoelectronic materials!</p>
     </div>
 
     <div class="stats-row">
       <div class="stat-card">
-        <div class="stat-num"><span>20</span>+</div>
+        <div class="stat-num"><span>23</span></div>
         <div class="stat-label">Publications</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num"><span>8</span>+</div>
-        <div class="stat-label">Active Projects</div>
+        <div class="stat-num"><span>2574</span>+</div>
+        <div class="stat-label">Total Citations</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num"><span>6</span></div>
-        <div class="stat-label">Team Members</div>
+        <div class="stat-num"><span>14</span></div>
+        <div class="stat-label">h-index</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num"><span>5</span>+</div>
-        <div class="stat-label">Partners</div>
+        <div class="stat-num"><span>1</span></div>
+        <div class="stat-label">Nature Papers</div>
       </div>
     </div>
   </div>

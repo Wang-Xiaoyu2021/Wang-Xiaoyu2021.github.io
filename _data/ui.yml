@@ -3,24 +3,24 @@ zh:
   lang_name: 中文
   alt_lang_name: English
   home:
-    hero_badge: "AI 驱动的材料设计 · 从原子到产品"
-    hero_title: "面向人工智能辅助的材料设计与创新"
-    hero_subtitle: "我们融合机器学习、高通量计算与实验验证，加速新材料的发现、设计与优化，为能源、催化与先进制造领域提供智能解决方案。"
-    hero_btn_projects: "了解研究项目"
+    hero_badge: "吉林大学 · 张立军团队下属研究小组"
+    hero_title: "ADIWANG Team · 人工智能辅助设计与创新小组"
+    hero_subtitle: "ADIWANG Team 隶属于吉林大学张立军教授团队，聚焦第一性原理计算、光电半导体材料设计与材料信息学，以人工智能辅助手段驱动功能材料的设计与创新。"
+    hero_btn_projects: "了解研究方向"
     hero_btn_join: "加入我们"
     section_directions_title: "主要研究方向"
-    section_directions_desc: "围绕材料基因组与人工智能的交叉领域，开展以下核心研究："
-    section_featured_title: "代表性研究项目"
+    section_directions_desc: "围绕计算材料学与人工智能的交叉领域，开展以下核心研究："
+    section_featured_title: "代表性项目"
     section_team_title: "团队概况"
-    section_team_desc: "一支由教授、博士后、博士生与硕士生组成的年轻而充满活力的研究团队。"
+    section_team_desc: "一支聚焦光电材料与计算设计、充满活力的研究小组。"
     btn_view_all: "查看全部"
     section_news_title: "新闻动态"
   page:
     breadcrumb_home: 首页
   members:
     title: 团队成员
-    subtitle: 一支跨学科的研究团队，共同探索 AI 驱动的材料创新。
-    group_pi: 课题组长
+    subtitle: 一个跨学科的研究小组，共同探索人工智能辅助的光电材料设计。
+    group_leader: 小组组长
     group_postdoc: 博士后
     group_phd: 博士研究生
     group_ms: 硕士研究生
@@ -30,9 +30,10 @@ zh:
     btn_homepage: 个人主页
   publications:
     title: 发表论文
-    subtitle: 代表性论文（* 表示通讯作者）
+    subtitle: 论文列表（数据来源：Google Scholar）
     all_years: 全部年份
     btn_view: 论文链接
+    citations: 引用
   news:
     title: 新闻动态
     subtitle: 课题组最新进展与招生信息
@@ -46,24 +47,24 @@ en:
   lang_name: English
   alt_lang_name: 中文
   home:
-    hero_badge: "AI-assisted materials design · from atoms to products"
-    hero_title: "WANG Group for AI-assisted Materials Design & Innovation"
-    hero_subtitle: "We combine machine learning, high-throughput computation and experimental validation to accelerate the discovery, design and optimization of novel materials for energy, catalysis and advanced manufacturing."
+    hero_badge: "A subgroup of Prof. Lijun Zhang's group, Jilin University"
+    hero_title: "ADIWANG Team · AI-assisted Design & Innovation"
+    hero_subtitle: "ADIWANG Team is a research subgroup affiliated with Prof. Lijun Zhang's group at Jilin University, focusing on first-principles calculations, optoelectronic semiconductor materials design and materials informatics, driven by AI-assisted approaches."
     hero_btn_projects: "Explore Research"
     hero_btn_join: "Join Us"
     section_directions_title: "Research Directions"
-    section_directions_desc: "At the intersection of materials genomics and artificial intelligence, we focus on:"
+    section_directions_desc: "At the intersection of computational materials science and artificial intelligence, we focus on:"
     section_featured_title: "Featured Projects"
     section_team_title: "Our Team"
-    section_team_desc: "A young and energetic team of professor, postdocs, PhD students and master students."
+    section_team_desc: "A dynamic group dedicated to optoelectronic materials and computational design."
     btn_view_all: "View All"
     section_news_title: "News"
   page:
     breadcrumb_home: Home
   members:
     title: "Team Members"
-    subtitle: "An interdisciplinary team exploring AI-driven materials innovation."
-    group_pi: "Principal Investigator"
+    subtitle: "An interdisciplinary group exploring AI-assisted design of optoelectronic materials."
+    group_leader: "Group Leader"
     group_postdoc: "Postdoctoral Fellows"
     group_phd: "PhD Students"
     group_ms: "Master Students"
@@ -73,9 +74,10 @@ en:
     btn_homepage: "Website"
   publications:
     title: "Publications"
-    subtitle: "Selected publications (* corresponding author)"
+    subtitle: "Publication list (source: Google Scholar)"
     all_years: "All Years"
     btn_view: "Paper"
+    citations: "Citations"
   news:
     title: "News"
     subtitle: "Latest updates and openings"

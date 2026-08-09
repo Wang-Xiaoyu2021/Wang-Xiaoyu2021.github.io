@@ -21,14 +21,14 @@ permalink: /en/contact/
         <div class="contact-icon">{% include icon.html name='pin' %}</div>
         <div>
           <h3>Address</h3>
-          <p>School of Materials Science and Engineering<br>Your University, City, China</p>
+          <p>College of Materials Science and Engineering<br>Jilin University, Changchun, China</p>
         </div>
       </div>
       <div class="contact-card">
-        <div class="contact-icon">{% include icon.html name='link' %}</div>
+        <div class="contact-icon">{% include icon.html name='scholar' %}</div>
         <div>
-          <h3>GitHub</h3>
-          <p><a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">@{{ site.github_username }}</a></p>
+          <h3>Google Scholar</h3>
+          <p><a href="{{ site.scholar_url }}" target="_blank" rel="noopener">Profile of Xiaoyu Wang</a></p>
         </div>
       </div>
     </div>

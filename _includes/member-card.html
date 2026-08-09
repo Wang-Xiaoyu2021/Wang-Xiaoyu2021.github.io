@@ -14,6 +14,9 @@
       {% if m.email %}
       <a class="member-link" href="mailto:{{ m.email }}" title="{{ ui.members.btn_email }}">{% include icon.html name='mail' %}<span>{{ ui.members.btn_email }}</span></a>
       {% endif %}
+      {% if m.scholar and m.scholar != "" %}
+      <a class="member-link" href="{{ m.scholar }}" target="_blank" rel="noopener" title="Google Scholar">{% include icon.html name='scholar' %}<span>Scholar</span></a>
+      {% endif %}
       {% if m.homepage and m.homepage != "" %}
       <a class="member-link" href="{{ m.homepage }}" target="_blank" rel="noopener" title="{{ ui.members.btn_homepage }}">{% include icon.html name='link' %}<span>{{ ui.members.btn_homepage }}</span></a>
       {% endif %}

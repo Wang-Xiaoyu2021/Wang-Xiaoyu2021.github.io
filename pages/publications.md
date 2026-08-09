@@ -30,6 +30,9 @@ permalink: /publications/
         <p class="pub-venue">{{ p.venue }}</p>
         <div class="pub-meta">
           <span class="pub-type {% if p.type == 'journal' %}journal{% endif %}">{{ p.type }}</span>
+          {% if p.citations and p.citations > 0 %}
+          <span class="pub-citations" title="{{ ui.publications.citations }}">“{{ ui.publications.citations }} {{ p.citations }}”</span>
+          {% endif %}
           {% if p.doi and p.doi != "" %}<span class="pub-doi">DOI: {{ p.doi }}</span>{% endif %}
           {% if p.url %}
           <a class="pub-link" href="{{ p.url }}" target="_blank" rel="noopener">

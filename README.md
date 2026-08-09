@@ -1,9 +1,10 @@
-# WANG Group 研究小组官网
+# ADIWANG Team 研究小组官网
 
-面向人工智能辅助的材料设计与创新（AI-assisted Materials Design & Innovation）研究组官网。
-基于 **Jekyll** 构建，兼容 GitHub Pages 原生部署，支持**中英双语**。
+人工智能辅助设计与创新小组（AI-assisted Design & Innovation，缩写 **ADIWANG Team**），
+吉林大学张立军教授团队下属研究小组。官网基于 **Jekyll** 构建，兼容 GitHub Pages 原生部署，支持**中英双语**。
 
 - 🌐 部署地址：<https://wang-xiaoyu2021.github.io/>
+- 📚 Google Scholar：<https://scholar.google.com.hk/citations?user=c3w343cAAAAJ&hl=zh-CN>
 - 🧪 技术栈：Jekyll · HTML/CSS · 少量原生 JavaScript
 
 ## 目录结构

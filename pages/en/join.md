@@ -5,7 +5,7 @@ active: join
 permalink: /en/join/
 ---
 {% assign ui = site.data.ui[page.lang] %}
-{% include page-hero.html title=ui.join.title subtitle="We welcome talented people interested in the intersection of AI and materials science to join the WANG group." %}
+{% include page-hero.html title=ui.join.title subtitle="We welcome talented people interested in computational materials science, optoelectronic materials and AI to join ADIWANG Team." %}
 
 <div class="section">
   <div class="container">

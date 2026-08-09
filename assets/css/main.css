@@ -508,6 +508,14 @@ p { margin: 0 0 1em; }
 .pub-link:hover { color: var(--color-primary); }
 .pub-link svg { width: 14px; height: 14px; }
 .pub-doi { font-size: 12.5px; color: var(--color-text-light); }
+.pub-citations {
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: #f1f4fa;
+  color: var(--color-primary-light);
+}
 
 /* ---------- 加入我们 ---------- */
 .join-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }

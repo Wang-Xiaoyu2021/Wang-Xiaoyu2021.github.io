@@ -1,45 +1,45 @@
 # 研究项目数据
-# icon 取值: brain / crystal / battery / robot / graph / flask（对应 assets/css 中定义的图标）
+# icon 取值: brain / crystal / battery / robot / graph / flask / cpu（对应 icon.html 中定义的图标）
 - key: project-1
-  title_zh: AI 驱动的多尺度材料设计平台
-  title_en: AI-driven Multi-scale Materials Design Platform
-  desc_zh: 构建融合第一性原理、机器学习势函数与生成模型的统一平台，实现从原子结构到宏观性能的跨尺度材料设计。
-  desc_en: A unified platform integrating first-principles calculations, machine-learned potentials and generative models for cross-scale materials design from atomistic structures to macroscopic properties.
-  tags: [机器学习, 生成模型, 多尺度]
-  tags_en: [Machine Learning, Generative Models, Multi-scale]
-  icon: brain
-  status_zh: 进行中
+  title_zh: JAMIP 材料信息学基础设施
+  title_en: JAMIP Materials Informatics Infrastructure
+  desc_zh: 建设面向计算材料信息学的人工智能辅助数据驱动平台，支持高通量计算、数据管理与材料筛选，为数据驱动材料研究提供基础设施。
+  desc_en: An AI-aided, data-driven infrastructure for computational materials informatics, supporting high-throughput computation, data management and materials screening for data-driven research.
+  tags: [材料信息学, 高通量计算, 数据驱动]
+  tags_en: [Materials Informatics, High-throughput, Data-driven]
+  icon: cpu
+  status_zh: 持续推进
   status_en: Ongoing
 
 - key: project-2
-  title_zh: 数据驱动的电池材料加速研发
-  title_en: Data-driven Accelerated Development of Battery Materials
-  desc_zh: 利用高通量计算与主动学习策略，快速筛选高性能电极与电解质材料，并通过实验闭环验证缩短研发周期。
-  desc_en: Combining high-throughput computation and active learning to rapidly screen high-performance electrode and electrolyte materials, with closed-loop experimental validation to shorten the R&D cycle.
-  tags: [电池, 主动学习, 高通量]
-  tags_en: [Batteries, Active Learning, High-throughput]
+  title_zh: SolarDesign 光伏器件仿真与设计平台
+  title_en: SolarDesign Photovoltaic Device Simulation Platform
+  desc_zh: 开发在线光伏器件仿真与设计平台，实现太阳能电池器件性能的快速模拟、优化与方案设计。
+  desc_en: An online photovoltaic device simulation and design platform for rapid simulation, optimization and design of solar cell device performance.
+  tags: [光伏器件, 仿真平台, 设计工具]
+  tags_en: [Photovoltaics, Simulation, Design Tools]
   icon: battery
-  status_zh: 进行中
+  status_zh: 持续推进
   status_en: Ongoing
 
 - key: project-3
-  title_zh: 催化材料的结构-性能智能预测
-  title_en: Intelligent Structure-Property Prediction of Catalytic Materials
-  desc_zh: 开发面向催化体系的图神经网络模型，结合描述符学习揭示活性位点与反应路径的定量关系。
-  desc_en: Developing graph neural networks for catalytic systems, combining descriptor learning to reveal quantitative relationships between active sites and reaction pathways.
-  tags: [催化, 图神经网络]
-  tags_en: [Catalysis, Graph Neural Networks]
-  icon: flask
+  title_zh: 钙钛矿太阳能电池界面与缺陷工程
+  title_en: Interface & Defect Engineering of Perovskite Solar Cells
+  desc_zh: 从原子尺度研究自组装分子对界面缺陷钝化与偶极调控的作用机制，为高效稳定钙钛矿太阳能电池提供理论设计。
+  desc_en: Understanding at the atomic scale how self-assembled molecules passivate interfacial defects and modulate dipoles, providing theoretical design for efficient and stable perovskite solar cells.
+  tags: [钙钛矿, 缺陷钝化, 界面工程]
+  tags_en: [Perovskite, Defect Passivation, Interface Engineering]
+  icon: crystal
   status_zh: 进行中
   status_en: Ongoing
 
 - key: project-4
-  title_zh: 大语言模型驱动的材料知识自动化
-  title_en: LLM-driven Automation of Materials Knowledge
-  desc_zh: 利用大语言模型自动抽取与组织材料科学文献与实验数据，构建可检索、可推理的材料知识图谱与智能助手。
-  desc_en: Leveraging large language models to automatically extract and organize materials science literature and experimental data, building searchable and reason-able materials knowledge graphs and intelligent assistants.
-  tags: [大语言模型, 知识图谱]
-  tags_en: [LLMs, Knowledge Graphs]
-  icon: robot
+  title_zh: 全钙钛矿叠层太阳能电池计算设计
+  title_en: Computational Design of All-Perovskite Tandem Solar Cells
+  desc_zh: 面向高性能叠层光伏，开展宽带隙/窄带隙钙钛矿材料与接触界面的计算设计，助力叠层器件效率突破。
+  desc_en: Computational design of wide/narrow-bandgap perovskites and contact interfaces for high-performance tandem photovoltaics, pushing tandem device efficiency beyond limits.
+  tags: [叠层电池, 计算设计, 光伏]
+  tags_en: [Tandem Cells, Computational Design, Photovoltaics]
+  icon: flask
   status_zh: 进行中
   status_en: Ongoing

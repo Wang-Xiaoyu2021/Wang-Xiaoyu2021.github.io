@@ -1,50 +1,184 @@
-# 发表论文数据（按 year 降序展示，可自行增删）
-# type: journal / conference
-- id: p2026-3
-  title: "Machine-learned interatomic potentials enable large-scale simulation of complex alloys"
-  authors: "Mingxuan Li, Siyuan Chen, Xiaoyu Wang*"
-  venue: "npj Computational Materials"
-  year: 2026
-  type: journal
-  url: https://example.edu/paper/p2026-3
-  doi: "10.1038/s41524-026-00003-x"
-- id: p2026-2
-  title: "Active learning for closed-loop optimization of organic functional materials"
-  authors: "Yutong Zhang, Ruoqi Wang, Xiaoyu Wang*"
-  venue: "Advanced Materials"
-  year: 2026
-  type: journal
-  url: https://example.edu/paper/p2026-2
-  doi: "10.1002/adma.202600012"
+# 发表论文数据（数据来源：Google Scholar, user=c3w343cAAAAJ）
+# citations 为引用次数（可省略）；url 为 Google Scholar 论文链接
 - id: p2026-1
-  title: "LLM-based knowledge graph construction for materials science literature"
-  authors: "Zihan Liu, Tianyou Zhao, Xiaoyu Wang*"
-  venue: "ICLR 2026 (oral)"
+  title: "Modulating p–n transition of two-dimensional perovskites for efficient and stable perovskite/Si tandem photovoltaics"
+  authors: "J Guo, Z Zhang, Z Jia, F Liu, M Feng, W Zhan, H Wang, X Wang, Y Chang, ..."
+  venue: "Nature Photonics, 1-8"
   year: 2026
-  type: conference
-  url: https://example.edu/paper/p2026-1
-  doi: ""
+  type: journal
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:D03iK_w7-QYC"
+- id: p2025-3
+  title: "Role of self-assembled molecules in halide perovskite optoelectronics: an atomic-scale perspective"
+  authors: "X Wang, X Wang, X Wang, M Li, H Li, Y Fu, L Zhang"
+  venue: "National Science Review 12 (5), nwaf150"
+  year: 2025
+  type: journal
+  citations: 18
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:a0OBvERweLwC"
 - id: p2025-2
-  title: "Graph neural network descriptors for catalytic active site prediction"
-  authors: "Siyuan Chen, Xiaoyu Wang*"
-  venue: "Journal of the American Chemical Society"
+  title: "SolarDesign: An online photovoltaic device simulation and design platform"
+  authors: "WEI Sha, X Wang, W Chen, Y Fu, L Zhang, L Tian, M Lin, S Jiao, T Xu, ..."
+  venue: "Chinese Physics B 34 (1), 018801"
   year: 2025
   type: journal
-  url: https://example.edu/paper/p2025-2
-  doi: "10.1021/jacs.5c01002"
-- id: p2025-1
-  title: "High-throughput screening of electrode materials via generative models"
-  authors: "Xiaoyu Wang, Mingxuan Li"
-  venue: "Nature Communications"
-  year: 2025
-  type: journal
-  url: https://example.edu/paper/p2025-1
-  doi: "10.1038/s41467-025-00001-5"
-- id: p2024-1
-  title: "A unified framework for multi-scale materials design with machine learning"
-  authors: "Xiaoyu Wang*, Siyuan Chen, Yutong Zhang"
-  venue: "Materials Science and Engineering: R"
+  citations: 9
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:cFHS6HbyZ2cC"
+- id: p2024-6
+  title: "Homogenized contact in all-perovskite tandems using tailored 2D perovskite"
+  authors: "Y Wang, R Lin, C Liu, X Wang, C Chosy, Y Haruta, AD Bui, M Li, H Sun, ..."
+  venue: "Nature 635 (8040), 867-873"
   year: 2024
   type: journal
-  url: https://example.edu/paper/p2024-1
-  doi: "10.1016/j.mser.2024.100001"
+  citations: 227
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:yD5IFk8b50cC"
+- id: p2024-5
+  title: "Elastic and Thermoelectric Properties of Vacancy Ordered Double Perovskites A2BX6: A DFT Study"
+  authors: "M Faizan, G Zhao, T Zhang, X Wang, X He, L Zhang"
+  venue: "Acta Physica Sinica 40 (1), 2303004"
+  year: 2024
+  type: journal
+  citations: 27
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:zA6iFVUQeVQC"
+- id: p2024-4
+  title: "Highly Stable O-Tolylbiguanide-CsPbI3 Quantum Dots and Light-Emitting Diodes by Synergistic Supramolecular Passivation"
+  authors: "H Li, Y Hua, X Wang, C Ge, Z Wang, Y Song, X Li, A Wang, Y Yang, ..."
+  venue: "Advanced Functional Materials, 2311554"
+  year: 2024
+  type: journal
+  citations: 19
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:3s1wT3WcHBgC"
+- id: p2024-3
+  title: "Role of self-assembled molecules' anchoring groups for surface defect passivation and dipole modulation in inverted perovskite solar cells"
+  authors: "X Wang, M Faizan, K Zhou, X Wang, Y Fu, L Zhang"
+  venue: "Chinese Physics B 33 (10), 107303"
+  year: 2024
+  type: journal
+  citations: 7
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:u_35RYKgDlwC"
+- id: p2024-2
+  title: "Influence of Local Cation Order on Electronic Structure and Optical Properties of Cation-Disordered Semiconductor AgBiS2"
+  authors: "X Wang, M Faizan, Y Fu, K Zhou, Y Zhang, X He, DJ Singh, L Zhang"
+  venue: "Chinese Physics Letters 41 (10), 106101"
+  year: 2024
+  type: journal
+  citations: 6
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:fPk4N6BV_jEC"
+- id: p2024-1
+  title: "Layer Stacking-Induced Transition to a Kane-Band Semiconductor in Sb2Te3"
+  authors: "D Zhao, X Wang, X Wang, X Wang, X He, Y Fu, DJ Singh, L Zhang"
+  venue: "The Journal of Physical Chemistry C 128 (40), 17081-17090"
+  year: 2024
+  type: journal
+  citations: 2
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:dfsIfKJdRG4C"
+- id: p2023-6
+  title: "Minimizing buried interfacial defects for efficient inverted perovskite solar cells"
+  authors: "S Zhang, F Ye, X Wang, R Chen, H Zhang, L Zhan, X Jiang, Y Li, X Ji, ..."
+  venue: "Science 380 (6643), 404-409"
+  year: 2023
+  type: journal
+  citations: 1081
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:eQOLeE2rZwMC"
+- id: p2023-5
+  title: "Oxidation-resistant all-perovskite tandem solar cells in substrate configuration"
+  authors: "Y Wang, R Lin, X Wang, C Liu, Y Ahmed, Z Huang, Z Zhang, H Li, ..."
+  venue: "Nature Communications 14 (1), 1819"
+  year: 2023
+  type: journal
+  citations: 115
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:W7OEmFMy1HYC"
+- id: p2023-4
+  title: "Immobilizing surface halide in perovskite solar cells via calix[4]pyrrole"
+  authors: "H Guo, X Wang, C Li, H Hu, H Zhang, L Zhang, WH Zhu, Y Wu"
+  venue: "Advanced Materials 35 (26), 2301871"
+  year: 2023
+  type: journal
+  citations: 63
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:ufrVoPGSRksC"
+- id: p2023-3
+  title: "Structural, electronic, magnetic and thermoelectric properties of Tl2NbX6 (X = Cl, Br) variant perovskites calculated via density functional theory"
+  authors: "MA Ali, AAA Bahajjaj, S Al-Qaisi, M Sillanpää, A Khan, X Wang"
+  venue: "Journal of Computational Chemistry 44 (23), 1875-1883"
+  year: 2023
+  type: journal
+  citations: 57
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:_FxGoFyzp5QC"
+- id: p2023-2
+  title: "Evaluating thermal expansion in fluorides and oxides: Machine learning predictions with connectivity descriptors"
+  authors: "Y Zhang, H Mu, Y Cai, X Wang, K Zhou, F Tian, Y Fu, L Zhang"
+  venue: "Chinese Physics B 32 (5), 056302"
+  year: 2023
+  type: journal
+  citations: 5
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:YsMSGLbcyi4C"
+- id: p2023-1
+  title: "光电半导体材料的理论设计"
+  authors: "M Li, X Wang, J Jie, X Wang, H Zou, X Yang, L Zhang"
+  venue: "Chinese Science Bulletin 68 (17), 2221-2238"
+  year: 2023
+  type: journal
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:LkGwnXOMwfcC"
+- id: p2022-3
+  title: "Flexible all-perovskite tandem solar cells approaching 25% efficiency with molecule-bridged hole-selective contact"
+  authors: "L Li, Y Wang, X Wang, R Lin, X Luo, Z Liu, K Zhou, S Xiong, Q Bao, ..."
+  venue: "Nature Energy 7 (8), 708-717"
+  year: 2022
+  type: journal
+  citations: 579
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:WF5omc3nYNoC"
+- id: p2022-2
+  title: "Global instability index as a crystallographic stability descriptor of halide and chalcogenide perovskites"
+  authors: "W Feng, R Zhao, X Wang, B Xing, Y Zhang, X He, L Zhang"
+  venue: "Journal of Energy Chemistry 70, 1-8"
+  year: 2022
+  type: journal
+  citations: 47
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:Tyk-4Ss8FVUC"
+- id: p2021-6
+  title: "JAMIP: an artificial-intelligence aided data-driven infrastructure for computational materials informatics"
+  authors: "XG Zhao, K Zhou, B Xing, R Zhao, S Luo, T Li, Y Sun, G Na, J Xie, X Yang, ..."
+  venue: "Science Bulletin 66 (19), 1973-1985"
+  year: 2021
+  type: journal
+  citations: 85
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:qjMakFHDy7sC"
+- id: p2021-5
+  title: "Molecular engineering towards efficient white-light-emitting perovskite"
+  authors: "M Zhang, L Zhao, J Xie, Q Zhang, X Wang, N Yaqoob, Z Yin, P Kaghazchi, ..."
+  venue: "Nature Communications 12 (1), 4890"
+  year: 2021
+  type: journal
+  citations: 74
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:IjCSPb-OGe4C"
+- id: p2021-4
+  title: "Stable cesium-rich formamidinium/cesium pure-iodide perovskites for efficient photovoltaics"
+  authors: "X Wang, Y Chen, T Zhang, X Wang, Y Wang, M Kan, Y Miao, H Chen, ..."
+  venue: "ACS Energy Letters 6 (8), 2735-2741"
+  year: 2021
+  type: journal
+  citations: 60
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:UeHWp8X0CEIC"
+- id: p2021-3
+  title: "Electronic and optical properties of tapered tetrahedral semiconductor nanocrystals"
+  authors: "G Na, Y Li, X Wang, Y Fu, L Zhang"
+  venue: "Nanotechnology 32 (29), 295203"
+  year: 2021
+  type: journal
+  citations: 4
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:2osOgNQ5qMEC"
+- id: p2021-2
+  title: "Temperature-induced phase transition of two-dimensional semiconductor GaTe"
+  authors: "X Wang, X Wang, H Zou, Y Fu, X He, L Zhang"
+  venue: "Chinese Physics B 30 (1), 016402"
+  year: 2021
+  type: journal
+  citations: 4
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:9yKSN-GCB0IC"
+- id: p2020-1
+  title: "Halide homogenization for high-performance blue perovskite electroluminescence"
+  authors: "L Cheng, C Yi, Y Tong, L Zhu, G Kusch, X Wang, X Wang, T Jiang, ..."
+  venue: "Research 2020"
+  year: 2020
+  type: journal
+  citations: 85
+  url: "https://scholar.google.com.hk/citations?view_op=view_citation&hl=zh-CN&user=c3w343cAAAAJ&citation_for_view=c3w343cAAAAJ:zYLM7Y9cAGgC"

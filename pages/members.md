@@ -9,12 +9,12 @@ permalink: /members/
 
 <div class="section">
   <div class="container">
-    {% assign groups = "pi|postdoc|phd|ms|ra|alumni" | split: "|" %}
+    {% assign groups = "leader|postdoc|phd|ms|ra|alumni" | split: "|" %}
     {% for g in groups %}
       {% assign members = site.data.members | where: "role", g %}
       {% if members.size > 0 %}
       <div class="content-section">
-        {% if g == 'pi' %}<h2><span class="sec-icon">{% include icon.html name='crystal' %}</span>{{ ui.members.group_pi }}</h2>
+        {% if g == 'leader' %}<h2><span class="sec-icon">{% include icon.html name='crystal' %}</span>{{ ui.members.group_leader }}</h2>
         {% elsif g == 'postdoc' %}<h2><span class="sec-icon">{% include icon.html name='flask' %}</span>{{ ui.members.group_postdoc }}</h2>
         {% elsif g == 'phd' %}<h2><span class="sec-icon">{% include icon.html name='brain' %}</span>{{ ui.members.group_phd }}</h2>
         {% elsif g == 'ms' %}<h2><span class="sec-icon">{% include icon.html name='graph' %}</span>{{ ui.members.group_ms }}</h2>

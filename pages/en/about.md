@@ -41,7 +41,7 @@ permalink: /en/about/
 
 {% include cv.html lang=page.lang %}
 
-<div class="section">
+<div class="section about-section">
   <div class="container">
     <div class="section-head">
       <h2 class="section-title">{{ ui.home.section_directions_title }}</h2>

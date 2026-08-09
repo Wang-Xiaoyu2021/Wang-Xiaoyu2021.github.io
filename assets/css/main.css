@@ -749,6 +749,7 @@ p { margin: 0 0 1em; }
 /* ============================================================
    通用正文 / Markdown
    ============================================================ */
+.prose { text-wrap: pretty; }
 .prose h2 { font-size: 22px; margin: 28px 0 14px; }
 .prose h3 { font-size: 18px; margin: 22px 0 10px; }
 .prose ul, .prose ol { padding-left: 22px; }

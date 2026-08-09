@@ -20,6 +20,7 @@ permalink: /en/projects/
         <div class="project-tags">
           {% for t in p.tags_en %}<span class="tag">{{ t }}</span>{% endfor %}
         </div>
+        {% include project-papers.html papers=p.papers lang=page.lang %}
       </article>
       {% endfor %}
     </div>

@@ -1,0 +1,22 @@
+{% comment %}项目卡片中的相关论文链接，传入 papers（论文 id 数组）与 lang。{% endcomment %}
+{% assign lang = include.lang | default: site.default_lang %}
+{% if include.papers %}
+<div class="project-papers">
+  <h4 class="project-papers-title">
+    {% if lang == 'en' %}Related Publications{% else %}相关论文{% endif %}
+  </h4>
+  <ul class="project-papers-list">
+    {% for pid in include.papers %}
+      {% assign pub = site.data.publications | where: "id", pid | first %}
+      {% if pub %}
+      <li>
+        <a href="{{ pub.url }}" target="_blank" rel="noopener">
+          <span class="project-paper-title">{{ pub.title }}</span>
+          <span class="project-paper-meta">{{ pub.venue }} · {{ pub.year }}</span>
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

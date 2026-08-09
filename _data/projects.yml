@@ -10,6 +10,7 @@
   icon: cpu
   status_zh: 持续推进
   status_en: Ongoing
+  papers: [p2021-6, p2022-2]
 
 - key: project-2
   title_zh: SolarDesign 光伏器件仿真与设计平台
@@ -21,6 +22,7 @@
   icon: battery
   status_zh: 持续推进
   status_en: Ongoing
+  papers: [p2025-2, p2026-1]
 
 - key: project-3
   title_zh: 钙钛矿太阳能电池界面与缺陷工程
@@ -32,6 +34,7 @@
   icon: crystal
   status_zh: 进行中
   status_en: Ongoing
+  papers: [p2023-6, p2023-4, p2025-3]
 
 - key: project-4
   title_zh: 全钙钛矿叠层太阳能电池计算设计
@@ -43,3 +46,4 @@
   icon: flask
   status_zh: 进行中
   status_en: Ongoing
+  papers: [p2024-6, p2023-5, p2022-3]

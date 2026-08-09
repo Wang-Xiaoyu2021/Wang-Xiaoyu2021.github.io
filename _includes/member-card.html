@@ -9,7 +9,12 @@
   <div class="member-info">
     <h3 class="member-name">{% if lang == 'en' %}{{ m.name_en }}{% else %}{{ m.name }}{% endif %}</h3>
     <p class="member-role">{% if lang == 'en' %}{{ m.role_en }}{% else %}{{ m.role_zh }}{% endif %}</p>
+    {% if m.duty_zh or m.duty_en %}
+    <p class="member-duty">{% if lang == 'en' %}{{ m.duty_en }}{% else %}{{ m.duty_zh }}{% endif %}</p>
+    {% endif %}
+    {% if m.interests_zh or m.interests_en %}
     <p class="member-interests">{% if lang == 'en' %}{{ m.interests_en }}{% else %}{{ m.interests_zh }}{% endif %}</p>
+    {% endif %}
     <div class="member-links">
       {% if m.email %}
       <a class="member-link" href="mailto:{{ m.email }}" title="{{ ui.members.btn_email }}">{% include icon.html name='mail' %}<span>{{ ui.members.btn_email }}</span></a>

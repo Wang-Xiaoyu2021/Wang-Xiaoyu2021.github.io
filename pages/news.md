@@ -21,6 +21,9 @@ permalink: /news/
           <span class="news-tag">{{ n.tag_zh }}</span>
           <h3 class="news-title">{{ n.title_zh }}</h3>
           <p class="news-excerpt">{{ n.content_zh | newline_to_br }}</p>
+          {% if n.url %}
+          <a class="news-source" href="{{ n.url }}" target="_blank" rel="noopener">查看原报道 →</a>
+          {% endif %}
         </div>
       </article>
       {% endfor %}

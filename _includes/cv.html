@@ -1,0 +1,76 @@
+{% comment %}个人履历（教育 + 工作经历），传入 lang 使用。{% endcomment %}
+{% assign lang = include.lang | default: site.default_lang %}
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">
+        {% if lang == 'en' %}Biography / CV{% else %}个人履历{% endif %}
+      </h2>
+      <p class="section-desc">
+        {% if lang == 'en' %}Education and employment history of Dr. Xiaoyu Wang.{% else %}王啸宇老师的教育与工作经历。{% endif %}
+      </p>
+    </div>
+
+    <div class="cv-grid">
+      <div class="cv-block">
+        <h3 class="cv-block-title">
+          {% if lang == 'en' %}Education{% else %}教育经历{% endif %}
+        </h3>
+        <ul class="cv-timeline">
+          <li class="cv-item">
+            <span class="cv-period">2014 – 2018</span>
+            <div class="cv-body">
+              <h4 class="cv-degree">B.Eng. in Materials Science and Engineering</h4>
+              <p class="cv-school">
+                College of Materials Science and Engineering, Jilin University
+                <span class="cv-note">(GPA 3.5/4.0, Top 5%)</span>
+              </p>
+            </div>
+          </li>
+          <li class="cv-item">
+            <span class="cv-period">2018 – 2021</span>
+            <div class="cv-body">
+              <h4 class="cv-degree">M.Eng. in Materials Physics and Chemistry</h4>
+              <p class="cv-school">
+                College of Materials Science and Engineering, Jilin University
+                <span class="cv-note">(Supervisor: Prof. Lijun Zhang)</span>
+              </p>
+            </div>
+          </li>
+          <li class="cv-item">
+            <span class="cv-period">2021 – 2024</span>
+            <div class="cv-body">
+              <h4 class="cv-degree">Ph.D. in Condensed Matter Physics</h4>
+              <p class="cv-school">
+                College of Physics, Jilin University
+                <span class="cv-note">(Supervisors: Prof. Lijun Zhang and Prof. Yuhao Fu)</span>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="cv-block">
+        <h3 class="cv-block-title">
+          {% if lang == 'en' %}Employment{% else %}工作经历{% endif %}
+        </h3>
+        <ul class="cv-timeline">
+          <li class="cv-item">
+            <span class="cv-period">2025 – 2026</span>
+            <div class="cv-body">
+              <h4 class="cv-degree">Visiting Scholar</h4>
+              <p class="cv-school">Department of Physics, Guangdong Technion – Israel Institute of Technology</p>
+            </div>
+          </li>
+          <li class="cv-item">
+            <span class="cv-period">2026 – Present</span>
+            <div class="cv-body">
+              <h4 class="cv-degree">Postdoctoral Fellow</h4>
+              <p class="cv-school">Department of Applied Physics, The Hong Kong Polytechnic University</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

@@ -286,6 +286,51 @@ p { margin: 0 0 1em; }
   color: var(--color-primary-light);
 }
 
+/* ---------- 项目卡片 · 相关论文 ---------- */
+.project-papers {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--color-border);
+}
+.project-papers-title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: var(--color-text-light);
+  margin-bottom: 8px;
+}
+.project-papers-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.project-papers-list li { margin: 0; }
+.project-papers-list a {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: #f4f7fb;
+  transition: background .18s ease;
+}
+.project-papers-list a:hover { background: #e8eef7; }
+.project-paper-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-primary-light);
+  line-height: 1.4;
+}
+.project-papers-list a:hover .project-paper-title { color: var(--color-accent-dark); }
+.project-paper-meta {
+  font-size: 12px;
+  color: var(--color-text-light);
+}
+
 /* ---------- 团队成员（首页条带） ---------- */
 .team-strip { display: flex; flex-wrap: wrap; gap: 18px; }
 .team-chip {
@@ -304,10 +349,11 @@ p { margin: 0 0 1em; }
 }
 .team-chip:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
 .team-chip img {
-  width: 72px; height: 72px;
-  border-radius: 50%;
+  width: 66px; height: 78px;
+  border-radius: 12px;
   object-fit: cover;
-  border: 3px solid #e9f1fb;
+  box-shadow: var(--shadow-sm);
+  background: #eef2f9;
 }
 .team-chip-name { font-weight: 600; font-size: 14.5px; color: var(--color-primary); }
 .team-chip-role { font-size: 12px; color: var(--color-text-light); }
@@ -357,6 +403,14 @@ p { margin: 0 0 1em; }
 }
 .news-title { font-size: 16.5px; margin-bottom: 4px; }
 .news-excerpt { font-size: 14px; color: var(--color-text-light); margin: 0; }
+.news-source {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-accent-dark);
+}
+.news-source:hover { color: var(--color-primary); }
 
 /* ============================================================
    通用页面头（内页）
@@ -400,33 +454,51 @@ p { margin: 0 0 1em; }
 .member-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 30px 22px;
   background: #fff;
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: 18px;
   box-shadow: var(--shadow-sm);
+  overflow: hidden;
   transition: transform .22s ease, box-shadow .22s ease;
 }
 .member-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
 .member-photo-wrap {
-  width: 108px; height: 108px;
-  border-radius: 50%;
-  padding: 5px;
-  background: linear-gradient(135deg, var(--color-accent), var(--color-primary-light));
-  margin-bottom: 18px;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: linear-gradient(135deg, #e8eef8, #dce7f6);
+  position: relative;
 }
 .member-photo {
-  width: 100%; height: 100%;
-  border-radius: 50%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  background: #eef2f9;
+  object-position: center 30%;
+  display: block;
+  transition: transform .3s ease;
+}
+.member-card:hover .member-photo { transform: scale(1.04); }
+.member-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 18px 20px 20px;
+  flex-grow: 1;
 }
 .member-name { font-size: 18px; margin-bottom: 4px; }
 .member-role { font-size: 13.5px; font-weight: 600; color: var(--color-accent-dark); margin-bottom: 10px; }
-.member-interests { font-size: 13.5px; color: var(--color-text-light); margin-bottom: 16px; }
-.member-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.member-duty {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--color-primary-light);
+  background: #eef2f9;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin: 0 0 10px;
+}
+.member-interests { font-size: 13.5px; color: var(--color-text-light); margin-bottom: 14px; flex-grow: 1; }
+.member-links { display: flex; flex-wrap: wrap; gap: 10px; }
 .member-link {
   display: inline-flex;
   align-items: center;
@@ -587,6 +659,49 @@ p { margin: 0 0 1em; }
 .stat-num span { color: var(--color-accent); }
 .stat-label { font-size: 13.5px; color: var(--color-text-light); margin-top: 6px; }
 
+/* ---------- 个人履历（时间轴） ---------- */
+.cv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+.cv-block-title {
+  font-size: 20px;
+  margin-bottom: 24px;
+  padding-left: 12px;
+  border-left: 4px solid var(--color-accent);
+}
+.cv-timeline { list-style: none; margin: 0; padding: 0; position: relative; }
+.cv-timeline::before {
+  content: "";
+  position: absolute;
+  left: 7px; top: 8px; bottom: 8px;
+  width: 2px;
+  background: linear-gradient(180deg, var(--color-accent), var(--color-primary-light));
+  border-radius: 2px;
+}
+.cv-item { position: relative; padding: 0 0 28px 32px; }
+.cv-item:last-child { padding-bottom: 0; }
+.cv-item::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 6px;
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid var(--color-accent);
+}
+.cv-period {
+  display: inline-block;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--color-accent-dark);
+  background: #e8f7f4;
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-bottom: 8px;
+  font-variant-numeric: tabular-nums;
+}
+.cv-degree { font-size: 16px; margin-bottom: 4px; }
+.cv-school { font-size: 14px; color: var(--color-text-light); margin: 0; line-height: 1.6; }
+.cv-note { font-size: 12.5px; color: var(--color-text-light); }
+
 /* ============================================================
    页脚
    ============================================================ */
@@ -668,6 +783,7 @@ p { margin: 0 0 1em; }
   .nav-list { flex-direction: column; padding: 12px 24px 20px; gap: 2px; }
   .nav-link { padding: 12px 14px; font-size: 15px; }
   .join-grid { grid-template-columns: 1fr; }
+  .cv-grid { grid-template-columns: 1fr; gap: 36px; }
   .footer-grid { grid-template-columns: 1fr; gap: 28px; }
 }
 

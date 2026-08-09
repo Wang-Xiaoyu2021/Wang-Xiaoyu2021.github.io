@@ -21,6 +21,9 @@ permalink: /en/news/
           <span class="news-tag">{{ n.tag_en }}</span>
           <h3 class="news-title">{{ n.title_en }}</h3>
           <p class="news-excerpt">{{ n.content_en | newline_to_br }}</p>
+          {% if n.url %}
+          <a class="news-source" href="{{ n.url }}" target="_blank" rel="noopener">Read the original report →</a>
+          {% endif %}
         </div>
       </article>
       {% endfor %}

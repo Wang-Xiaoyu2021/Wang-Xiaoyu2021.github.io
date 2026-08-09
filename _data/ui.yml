@@ -24,7 +24,8 @@ zh:
     group_postdoc: 博士后
     group_phd: 博士研究生
     group_ms: 硕士研究生
-    group_ra: 研究助理
+    group_ra: 科研助理
+    group_ug: 本科生
     group_alumni: 往届成员
     btn_email: 邮件联系
     btn_homepage: 个人主页
@@ -36,7 +37,7 @@ zh:
     citations: 引用
   news:
     title: 新闻动态
-    subtitle: 课题组最新进展与招生信息
+    subtitle: 课题组最新动态与研究成果
     empty: 暂无新闻
   join:
     title: 加入我们
@@ -69,6 +70,7 @@ en:
     group_phd: "PhD Students"
     group_ms: "Master Students"
     group_ra: "Research Assistants"
+    group_ug: "Undergraduates"
     group_alumni: "Alumni"
     btn_email: "Email"
     btn_homepage: "Website"
@@ -80,7 +82,7 @@ en:
     citations: "Citations"
   news:
     title: "News"
-    subtitle: "Latest updates and openings"
+    subtitle: "Latest updates and research highlights"
     empty: "No news yet"
   join:
     title: "Join Us"

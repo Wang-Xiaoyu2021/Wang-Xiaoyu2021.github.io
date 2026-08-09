@@ -1,87 +1,116 @@
 # 团队成员数据
-# role 取值: leader / postdoc / phd / ms / ra / alumni
-# photo 可替换为成员真实照片；name 为中文名，name_en 为英文名
+# role 取值: leader / postdoc / phd / ms / ug / ra / alumni
+# photo 为成员照片路径（真实照片放入 assets/images/members/）；
+# email / homepage / scholar / interests 可省略，省略则不显示对应栏目
 - name: 王啸宇
   name_en: Xiaoyu Wang
   role: leader
   role_zh: 小组组长 / Group Leader
   role_en: Group Leader
-  email: wang.xiaoyu@example.edu.cn
-  photo: /assets/images/avatars/avatar-pi.svg
+  email: wangxy.jlu@gmail.com
+  photo: /assets/images/members/wangxiaoyu.jpg
   homepage: ""
   scholar: "https://scholar.google.com.hk/citations?user=c3w343cAAAAJ&hl=zh-CN"
   interests_zh: 第一性原理计算、光电半导体材料、钙钛矿太阳能电池、材料信息学
   interests_en: First-principles calculations, optoelectronic semiconductor materials, perovskite solar cells, materials informatics
   status: current
 
-- name: 陈思远
-  name_en: Siyuan Chen
-  role: postdoc
-  role_zh: 博士后
-  role_en: Postdoctoral Fellow
-  email: chen.siyuan@example.edu.cn
-  photo: /assets/images/avatars/avatar-m1.svg
-  homepage: ""
-  interests_zh: 图神经网络、分子动力学模拟、催化材料
-  interests_en: Graph neural networks, molecular dynamics, catalytic materials
-  status: current
-
-- name: 李明轩
-  name_en: Mingxuan Li
+- name: 周岩松
+  name_en: Yansong Zhou
   role: phd
-  role_zh: 博士研究生（三年级）
-  role_en: PhD Student (3rd year)
-  email: li.mingxuan@example.edu.cn
-  photo: /assets/images/avatars/avatar-m2.svg
-  homepage: ""
-  interests_zh: 生成式模型、晶体结构预测、电池材料
-  interests_en: Generative models, crystal structure prediction, battery materials
+  role_zh: 博士研究生
+  role_en: PhD Student
+  photo: /assets/images/members/zhouyansong.jpg
   status: current
+  interests_zh: 人工智能辅助的拓扑电子结构材料研发，结合机器学习与第一性原理，实现拓扑材料的高通量筛选与电子结构预测
+  interests_en: AI-assisted development of topological electronic-structure materials, combining machine learning with first-principles methods for high-throughput screening and electronic-structure prediction
 
-- name: 张雨桐
-  name_en: Yutong Zhang
+- name: 阳锦秋
+  name_en: Jinqiu Yang
   role: phd
-  role_zh: 博士研究生（二年级）
-  role_en: PhD Student (2nd year)
-  email: zhang.yutong@example.edu.cn
-  photo: /assets/images/avatars/avatar-f1.svg
-  homepage: ""
-  interests_zh: 主动学习、实验闭环优化、有机功能材料
-  interests_en: Active learning, closed-loop experimental optimization, organic functional materials
+  role_zh: 博士研究生
+  role_en: PhD Student
+  photo: /assets/images/members/yangjinqiu.jpg
   status: current
+  interests_zh: 人工智能辅助的材料性能多目标权衡优化，探索性能-稳定性等相互制约目标之间的最优折中方案
+  interests_en: AI-assisted multi-objective tradeoff optimization of materials properties, seeking optimal compromises among competing targets such as performance and stability
 
-- name: 刘子涵
-  name_en: Zihan Liu
+- name: 孙成玉
+  name_en: Chengyu Sun
   role: ms
-  role_zh: 硕士研究生（二年级）
-  role_en: Master Student (2nd year)
-  email: liu.zihan@example.edu.cn
-  photo: /assets/images/avatars/avatar-m3.svg
-  homepage: ""
-  interests_zh: 大语言模型、材料文献挖掘、知识图谱
-  interests_en: Large language models, materials literature mining, knowledge graphs
+  role_zh: 硕士研究生
+  role_en: Master Student
+  photo: /assets/images/members/sunchengyu.jpg
   status: current
+  interests_zh: 基于通用机器学习力场的钙钛矿表面分子吸附模型开发，实现吸附构型与结合能的快速准确预测
+  interests_en: Development of molecular adsorption models on perovskite surfaces based on general-purpose machine-learned force fields for fast and accurate prediction of adsorption configurations and binding energies
 
-- name: 王若琪
-  name_en: Ruoqi Wang
+- name: 窦中杰
+  name_en: Zhongjie Dou
   role: ms
-  role_zh: 硕士研究生（一年级）
-  role_en: Master Student (1st year)
-  email: wang.ruoqi@example.edu.cn
-  photo: /assets/images/avatars/avatar-f2.svg
-  homepage: ""
-  interests_zh: 机器学习势函数、金属材料力学性能
-  interests_en: Machine-learned interatomic potentials, mechanical properties of metals
+  role_zh: 硕士研究生
+  role_en: Master Student
+  photo: /assets/images/members/douzhongjie.png
   status: current
+  interests_zh: 人工智能辅助的半导体材料设计，结合计算模拟研究成分-结构-性能关系，加速新型半导体材料的发现
+  interests_en: AI-assisted semiconductor materials design, combining computational simulation to study composition-structure-property relationships and accelerate discovery of novel semiconductors
 
-- name: 赵天佑
-  name_en: Tianyou Zhao
+- name: 张英新
+  name_en: Yingxin Zhang
+  role: ug
+  role_zh: 本科生
+  role_en: Undergraduate
+  photo: /assets/images/members/zhangyingxin.jpg
+  status: current
+  interests_zh: 基于主动学习的半导体器件界面修饰分子设计，实现材料表面功能化的高效探索
+  interests_en: Design of interface-modifying molecules for semiconductor devices with active learning, enabling efficient exploration of surface functionalization
+
+- name: 刘佳澄
+  name_en: Jiacheng Liu
+  role: ug
+  role_zh: 本科生
+  role_en: Undergraduate
+  photo: /assets/images/members/liujiacheng.jpg
+  status: current
+  interests_zh: 人工智能辅助的 MBene 气体探测器材料高通量设计与筛选，优化传感性能与稳定性
+  interests_en: AI-assisted high-throughput design and screening of MBene gas sensor materials, optimizing sensing performance and stability
+
+- name: 刘浩然
+  name_en: Haoran Liu
+  role: ug
+  role_zh: 本科生
+  role_en: Undergraduate
+  photo: /assets/images/members/liuhaoran.png
+  status: current
+  interests_zh: 人工智能辅助的全无机二维钙钛矿合金组分设计，探索稳定的二维光电材料体系
+  interests_en: AI-assisted compositional alloy design of all-inorganic two-dimensional perovskites, exploring stable 2D optoelectronic material systems
+
+- name: 高博
+  name_en: Bo Gao
   role: ra
-  role_zh: 研究助理
+  role_zh: 科研助理
   role_en: Research Assistant
-  email: zhao.tianyou@example.edu.cn
-  photo: /assets/images/avatars/avatar-m4.svg
-  homepage: ""
-  interests_zh: 高通量计算、数据平台建设
-  interests_en: High-throughput computation, data platform development
+  photo: /assets/images/members/gaobo.png
   status: current
+  duty_zh: 负责小组 IT 运维与计算平台管理
+  duty_en: In charge of IT operations and computational platform management
+
+- name: 段金彤
+  name_en: Jintong Duan
+  role: ra
+  role_zh: 科研助理
+  role_en: Research Assistant
+  photo: /assets/images/members/duanjintong.png
+  status: current
+  duty_zh: 负责小组财务报账与日常事务管理
+  duty_en: In charge of financial reimbursement and daily administrative affairs
+
+- name: Muhammad Faizan
+  name_en: Muhammad Faizan
+  role: alumni
+  role_zh: 博士后（往届成员）
+  role_en: Former Postdoctoral Fellow
+  photo: /assets/images/members/muhammad-faizan.jpg
+  status: alumni
+  interests_zh: 基于第一性原理的半导体材料设计
+  interests_en: First-principles-based design of semiconductor materials

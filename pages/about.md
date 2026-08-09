@@ -39,6 +39,8 @@ permalink: /about/
   </div>
 </div>
 
+{% include cv.html lang=page.lang %}
+
 <div class="section">
   <div class="container">
     <div class="section-head">

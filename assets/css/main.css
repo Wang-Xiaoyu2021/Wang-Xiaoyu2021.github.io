@@ -790,7 +790,22 @@ p { margin: 0 0 1em; }
 @media (max-width: 640px) {
   .hero-inner { padding: 64px 20px 72px; }
   .section { padding: 52px 0; }
-  .brand-sub { display: none; }
+  /* 手机端保留品牌副标题（AI-assisted Design & Innovation），
+     压缩字号与间距以适配窄屏；极窄屏自动省略尾部而非整行隐藏 */
+  .brand { gap: 6px; flex-shrink: 1; min-width: 0; }
+  .brand-text { min-width: 0; }
+  .brand-name { font-size: 15px; }
+  .brand-sub {
+    display: block;
+    font-size: 10px;
+    letter-spacing: .05px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .header-inner { gap: 8px; }
+  .header-actions { gap: 4px; flex-shrink: 0; }
+  .lang-current, .lang-sep, .lang-link { font-size: 12px; }
   .news-item { flex-direction: column; gap: 6px; }
   .project-grid, .member-grid { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; }

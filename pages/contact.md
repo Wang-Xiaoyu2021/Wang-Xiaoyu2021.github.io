@@ -31,6 +31,27 @@ permalink: /contact/
           <p><a href="{{ site.scholar_url }}" target="_blank" rel="noopener">Xiaoyu Wang 的学术主页</a></p>
         </div>
       </div>
+      <div class="contact-card">
+        <div class="contact-icon">{% include icon.html name='link' %}</div>
+        <div>
+          <h3>材料学院官网</h3>
+          <p><a href="https://dmse.jlu.edu.cn/" target="_blank" rel="noopener">吉林大学材料科学与工程学院</a></p>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">{% include icon.html name='brain' %}</div>
+        <div>
+          <h3>张立军教授主页</h3>
+          <p><a href="https://dmse.jlu.edu.cn/info/1083/5555.htm" target="_blank" rel="noopener">张立军 · 吉林大学教师主页</a></p>
+        </div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">{% include icon.html name='cpu' %}</div>
+        <div>
+          <h3>JAMIP 平台</h3>
+          <p><a href="https://www.jamip-code.com/" target="_blank" rel="noopener">JAMIP · 材料信息学平台</a></p>
+        </div>
+      </div>
     </div>
 
     <div class="prose">

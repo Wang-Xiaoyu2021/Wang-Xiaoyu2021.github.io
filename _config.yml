@@ -1,0 +1,57 @@
+# ============================================================
+# WANG group — AI-assisted Materials Design & Innovation
+# Jekyll 站点配置 (GitHub Pages 原生兼容)
+# ============================================================
+
+title: "WANG group for AI-assisted Materials Design & Innovation"
+email: wang.xiaoyu@example.edu.cn
+description: >-
+  王晓宇教授课题组：面向人工智能辅助的材料设计与创新研究组。
+  The WANG group focuses on AI-assisted materials design and innovation.
+baseurl: ""          # 部署到 username.github.io 根路径留空；若是子仓库填 /repo-name
+url: "https://wang-xiaoyu2021.github.io"
+github_username: wang-xiaoyu2021
+
+# ---------- 语言设置 ----------
+# 默认语言 zh（中文），English 页面放在 /en/ 路径下
+default_lang: zh
+languages: [zh, en]
+
+# ---------- 构建配置 ----------
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+permalink: pretty
+
+# GitHub Pages 支持的插件
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# ---------- 默认 Front Matter ----------
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: zh
+  - scope:
+      path: "en"
+    values:
+      lang: en
+  - scope:
+      path: "pages/en"
+    values:
+      lang: en
+
+# ---------- 排除文件 ----------
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - node_modules
+  - vendor
+  - .sass-cache

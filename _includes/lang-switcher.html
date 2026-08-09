@@ -1,0 +1,12 @@
+{% assign lang = page.lang | default: site.default_lang %}
+{% if lang == 'en' %}
+  {% assign alt_url = page.url | remove_first: '/en' %}
+  {% if alt_url == '' %}{% assign alt_url = '/' %}{% endif %}
+  <span class="lang-current">EN</span>
+  <span class="lang-sep">/</span>
+  <a class="lang-link" href="{{ alt_url }}" hreflang="zh" title="中文">中</a>
+{% else %}
+  <span class="lang-current">中</span>
+  <span class="lang-sep">/</span>
+  <a class="lang-link" href="/en{{ page.url }}" hreflang="en" title="English">EN</a>
+{% endif %}

@@ -1,0 +1,51 @@
+# 新闻动态数据（按 date 降序展示）
+# tag 用于显示标签，例如 招生 / 获奖 / 论文
+- date: 2026-07-15
+  tag_zh: 招生
+  tag_en: Opening
+  title_zh: 2026 年秋季博士生与硕士生招生启动
+  title_en: "Call for PhD & Master students (Fall 2026)"
+  content_zh: >
+    课题组 2026 年秋季招生正式启动！欢迎对机器学习、材料设计、计算材料学感兴趣的优秀学子加入。
+    有意者请将个人简历发送至 wang.xiaoyu@example.edu.cn，邮件主题请注明「2026 招生申请」。
+  content_en: >
+    We are now recruiting PhD and master students for Fall 2026! Students interested in machine
+    learning, materials design and computational materials science are warmly welcome. Please send
+    your CV to wang.xiaoyu@example.edu.cn with the subject "Fall 2026 Application".
+
+- date: 2026-06-20
+  tag_zh: 论文
+  tag_en: Paper
+  title_zh: 课题组论文被 npj Computational Materials 接收
+  title_en: "Paper accepted by npj Computational Materials"
+  content_zh: >
+    祝贺李明轩同学的论文被 npj Computational Materials 接收！该工作开发了面向复杂合金体系大规模模拟的机器学习势函数，
+    为材料力学性能的多尺度研究提供了新工具。
+  content_en: >
+    Congratulations to Mingxuan Li on the acceptance of our paper in npj Computational Materials!
+    The work develops machine-learned interatomic potentials for large-scale simulation of complex
+    alloys, providing a new tool for multi-scale studies of mechanical properties.
+
+- date: 2026-05-10
+  tag_zh: 获奖
+  tag_en: Award
+  title_zh: 王晓宇教授获评校级「青年学术之星」
+  title_en: "Prof. Xiaoyu Wang honored with Young Scholar Award"
+  content_zh: >
+    王晓宇教授因其在人工智能辅助材料设计领域的突出贡献，获评校级「青年学术之星」荣誉称号。
+  content_en: >
+    Prof. Xiaoyu Wang received the Young Scholar Award in recognition of outstanding contributions
+    to AI-assisted materials design.
+
+- date: 2026-03-08
+  tag_zh: 学术
+  tag_en: Talk
+  title_zh: 课题组受邀在材料信息学论坛作主旨报告
+  title_en: "Invited keynote at the Materials Informatics Forum"
+  content_zh: >
+    王晓宇教授受邀在 2026 材料信息学论坛上作题为「数据驱动材料设计：从算法到应用」的主旨报告，
+    与国内外同行分享了课题组的最新进展。
+  content_en: >
+    Prof. Xiaoyu Wang delivered a keynote talk entitled "Data-driven materials design: from
+    algorithms to applications" at the 2026 Materials Informatics Forum, sharing our latest progress
+    with colleagues from home and abroad.

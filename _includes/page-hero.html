@@ -1,0 +1,7 @@
+{% comment %}内页横幅，传入 title / subtitle 参数。{% endcomment %}
+<section class="page-hero">
+  <div class="container">
+    <h1>{{ include.title }}</h1>
+    {% if include.subtitle %}<p>{{ include.subtitle }}</p>{% endif %}
+  </div>
+</section>

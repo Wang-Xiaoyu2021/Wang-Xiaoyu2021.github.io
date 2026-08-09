@@ -1,0 +1,22 @@
+{% comment %}成员卡片，传入 member 对象。{% endcomment %}
+{% assign m = include.member %}
+{% assign lang = include.lang | default: site.default_lang %}
+{% assign ui = site.data.ui[lang] %}
+<div class="member-card">
+  <div class="member-photo-wrap">
+    <img class="member-photo" src="{{ m.photo | relative_url }}" alt="{% if lang == 'en' %}{{ m.name_en }}{% else %}{{ m.name }}{% endif %}">
+  </div>
+  <div class="member-info">
+    <h3 class="member-name">{% if lang == 'en' %}{{ m.name_en }}{% else %}{{ m.name }}{% endif %}</h3>
+    <p class="member-role">{% if lang == 'en' %}{{ m.role_en }}{% else %}{{ m.role_zh }}{% endif %}</p>
+    <p class="member-interests">{% if lang == 'en' %}{{ m.interests_en }}{% else %}{{ m.interests_zh }}{% endif %}</p>
+    <div class="member-links">
+      {% if m.email %}
+      <a class="member-link" href="mailto:{{ m.email }}" title="{{ ui.members.btn_email }}">{% include icon.html name='mail' %}<span>{{ ui.members.btn_email }}</span></a>
+      {% endif %}
+      {% if m.homepage and m.homepage != "" %}
+      <a class="member-link" href="{{ m.homepage }}" target="_blank" rel="noopener" title="{{ ui.members.btn_homepage }}">{% include icon.html name='link' %}<span>{{ ui.members.btn_homepage }}</span></a>
+      {% endif %}
+    </div>
+  </div>
+</div>

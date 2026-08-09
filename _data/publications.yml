@@ -1,0 +1,50 @@
+# 发表论文数据（按 year 降序展示，可自行增删）
+# type: journal / conference
+- id: p2026-3
+  title: "Machine-learned interatomic potentials enable large-scale simulation of complex alloys"
+  authors: "Mingxuan Li, Siyuan Chen, Xiaoyu Wang*"
+  venue: "npj Computational Materials"
+  year: 2026
+  type: journal
+  url: https://example.edu/paper/p2026-3
+  doi: "10.1038/s41524-026-00003-x"
+- id: p2026-2
+  title: "Active learning for closed-loop optimization of organic functional materials"
+  authors: "Yutong Zhang, Ruoqi Wang, Xiaoyu Wang*"
+  venue: "Advanced Materials"
+  year: 2026
+  type: journal
+  url: https://example.edu/paper/p2026-2
+  doi: "10.1002/adma.202600012"
+- id: p2026-1
+  title: "LLM-based knowledge graph construction for materials science literature"
+  authors: "Zihan Liu, Tianyou Zhao, Xiaoyu Wang*"
+  venue: "ICLR 2026 (oral)"
+  year: 2026
+  type: conference
+  url: https://example.edu/paper/p2026-1
+  doi: ""
+- id: p2025-2
+  title: "Graph neural network descriptors for catalytic active site prediction"
+  authors: "Siyuan Chen, Xiaoyu Wang*"
+  venue: "Journal of the American Chemical Society"
+  year: 2025
+  type: journal
+  url: https://example.edu/paper/p2025-2
+  doi: "10.1021/jacs.5c01002"
+- id: p2025-1
+  title: "High-throughput screening of electrode materials via generative models"
+  authors: "Xiaoyu Wang, Mingxuan Li"
+  venue: "Nature Communications"
+  year: 2025
+  type: journal
+  url: https://example.edu/paper/p2025-1
+  doi: "10.1038/s41467-025-00001-5"
+- id: p2024-1
+  title: "A unified framework for multi-scale materials design with machine learning"
+  authors: "Xiaoyu Wang*, Siyuan Chen, Yutong Zhang"
+  venue: "Materials Science and Engineering: R"
+  year: 2024
+  type: journal
+  url: https://example.edu/paper/p2024-1
+  doi: "10.1016/j.mser.2024.100001"

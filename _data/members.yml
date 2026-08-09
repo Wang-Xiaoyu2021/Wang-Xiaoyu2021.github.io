@@ -1,0 +1,86 @@
+# 团队成员数据
+# role 取值: pi / postdoc / phd / ms / ra / alumni
+# photo 可替换为成员真实照片；name 为中文名，name_en 为英文名
+- name: 王晓宇
+  name_en: Xiaoyu Wang
+  role: pi
+  role_zh: 教授 / 课题组长
+  role_en: Professor / Group Leader
+  email: wang.xiaoyu@example.edu.cn
+  photo: /assets/images/avatars/avatar-pi.svg
+  homepage: ""
+  interests_zh: 机器学习、材料基因组、高通量计算与数据驱动材料设计
+  interests_en: Machine learning, materials genomics, high-throughput computation and data-driven materials design
+  status: current
+
+- name: 陈思远
+  name_en: Siyuan Chen
+  role: postdoc
+  role_zh: 博士后
+  role_en: Postdoctoral Fellow
+  email: chen.siyuan@example.edu.cn
+  photo: /assets/images/avatars/avatar-m1.svg
+  homepage: ""
+  interests_zh: 图神经网络、分子动力学模拟、催化材料
+  interests_en: Graph neural networks, molecular dynamics, catalytic materials
+  status: current
+
+- name: 李明轩
+  name_en: Mingxuan Li
+  role: phd
+  role_zh: 博士研究生（三年级）
+  role_en: PhD Student (3rd year)
+  email: li.mingxuan@example.edu.cn
+  photo: /assets/images/avatars/avatar-m2.svg
+  homepage: ""
+  interests_zh: 生成式模型、晶体结构预测、电池材料
+  interests_en: Generative models, crystal structure prediction, battery materials
+  status: current
+
+- name: 张雨桐
+  name_en: Yutong Zhang
+  role: phd
+  role_zh: 博士研究生（二年级）
+  role_en: PhD Student (2nd year)
+  email: zhang.yutong@example.edu.cn
+  photo: /assets/images/avatars/avatar-f1.svg
+  homepage: ""
+  interests_zh: 主动学习、实验闭环优化、有机功能材料
+  interests_en: Active learning, closed-loop experimental optimization, organic functional materials
+  status: current
+
+- name: 刘子涵
+  name_en: Zihan Liu
+  role: ms
+  role_zh: 硕士研究生（二年级）
+  role_en: Master Student (2nd year)
+  email: liu.zihan@example.edu.cn
+  photo: /assets/images/avatars/avatar-m3.svg
+  homepage: ""
+  interests_zh: 大语言模型、材料文献挖掘、知识图谱
+  interests_en: Large language models, materials literature mining, knowledge graphs
+  status: current
+
+- name: 王若琪
+  name_en: Ruoqi Wang
+  role: ms
+  role_zh: 硕士研究生（一年级）
+  role_en: Master Student (1st year)
+  email: wang.ruoqi@example.edu.cn
+  photo: /assets/images/avatars/avatar-f2.svg
+  homepage: ""
+  interests_zh: 机器学习势函数、金属材料力学性能
+  interests_en: Machine-learned interatomic potentials, mechanical properties of metals
+  status: current
+
+- name: 赵天佑
+  name_en: Tianyou Zhao
+  role: ra
+  role_zh: 研究助理
+  role_en: Research Assistant
+  email: zhao.tianyou@example.edu.cn
+  photo: /assets/images/avatars/avatar-m4.svg
+  homepage: ""
+  interests_zh: 高通量计算、数据平台建设
+  interests_en: High-throughput computation, data platform development
+  status: current

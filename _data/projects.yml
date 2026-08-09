@@ -1,0 +1,45 @@
+# 研究项目数据
+# icon 取值: brain / crystal / battery / robot / graph / flask（对应 assets/css 中定义的图标）
+- key: project-1
+  title_zh: AI 驱动的多尺度材料设计平台
+  title_en: AI-driven Multi-scale Materials Design Platform
+  desc_zh: 构建融合第一性原理、机器学习势函数与生成模型的统一平台，实现从原子结构到宏观性能的跨尺度材料设计。
+  desc_en: A unified platform integrating first-principles calculations, machine-learned potentials and generative models for cross-scale materials design from atomistic structures to macroscopic properties.
+  tags: [机器学习, 生成模型, 多尺度]
+  tags_en: [Machine Learning, Generative Models, Multi-scale]
+  icon: brain
+  status_zh: 进行中
+  status_en: Ongoing
+
+- key: project-2
+  title_zh: 数据驱动的电池材料加速研发
+  title_en: Data-driven Accelerated Development of Battery Materials
+  desc_zh: 利用高通量计算与主动学习策略，快速筛选高性能电极与电解质材料，并通过实验闭环验证缩短研发周期。
+  desc_en: Combining high-throughput computation and active learning to rapidly screen high-performance electrode and electrolyte materials, with closed-loop experimental validation to shorten the R&D cycle.
+  tags: [电池, 主动学习, 高通量]
+  tags_en: [Batteries, Active Learning, High-throughput]
+  icon: battery
+  status_zh: 进行中
+  status_en: Ongoing
+
+- key: project-3
+  title_zh: 催化材料的结构-性能智能预测
+  title_en: Intelligent Structure-Property Prediction of Catalytic Materials
+  desc_zh: 开发面向催化体系的图神经网络模型，结合描述符学习揭示活性位点与反应路径的定量关系。
+  desc_en: Developing graph neural networks for catalytic systems, combining descriptor learning to reveal quantitative relationships between active sites and reaction pathways.
+  tags: [催化, 图神经网络]
+  tags_en: [Catalysis, Graph Neural Networks]
+  icon: flask
+  status_zh: 进行中
+  status_en: Ongoing
+
+- key: project-4
+  title_zh: 大语言模型驱动的材料知识自动化
+  title_en: LLM-driven Automation of Materials Knowledge
+  desc_zh: 利用大语言模型自动抽取与组织材料科学文献与实验数据，构建可检索、可推理的材料知识图谱与智能助手。
+  desc_en: Leveraging large language models to automatically extract and organize materials science literature and experimental data, building searchable and reason-able materials knowledge graphs and intelligent assistants.
+  tags: [大语言模型, 知识图谱]
+  tags_en: [LLMs, Knowledge Graphs]
+  icon: robot
+  status_zh: 进行中
+  status_en: Ongoing

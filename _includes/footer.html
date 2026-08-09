@@ -1,0 +1,67 @@
+{% assign lang = page.lang | default: site.default_lang %}
+{% assign ui = site.data.ui[lang] %}
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-brand-col">
+        <div class="footer-brand">
+          <img class="footer-logo" src="{{ '/assets/images/logo.svg' | relative_url }}" alt="logo">
+          <span class="footer-brand-name">WANG Group</span>
+        </div>
+        <p class="footer-tagline">
+          {% if lang == 'en' %}
+            AI-assisted Materials Design &amp; Innovation
+          {% else %}
+            面向人工智能辅助的材料设计与创新
+          {% endif %}
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">
+          {% if lang == 'en' %}Explore{% else %}站点导航{% endif %}
+        </h4>
+        <ul class="footer-links">
+          {% for item in site.data.nav %}
+          <li>
+            <a href="{% if lang == 'en' %}{{ item.url_en }}{% else %}{{ item.url_zh }}{% endif %}">
+              {% if lang == 'en' %}{{ item.en }}{% else %}{{ item.zh }}{% endif %}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">
+          {% if lang == 'en' %}Contact{% else %}联系方式{% endif %}
+        </h4>
+        <ul class="footer-contact">
+          <li>
+            <span class="footer-label">Email</span>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          </li>
+          <li>
+            <span class="footer-label">GitHub</span>
+            <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">@{{ site.github_username }}</a>
+          </li>
+          <li>
+            <span class="footer-label">
+              {% if lang == 'en' %}Address{% else %}地址{% endif %}
+            </span>
+            <span class="footer-addr">
+              {% if lang == 'en' %}School of Materials, Your University, City, China{% else %}中国 · 某市 · 某大学 材料学院{% endif %}
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© {{ site.time | date: "%Y" }} WANG Group. All rights reserved.</p>
+      <p class="footer-credit">
+        {% if lang == 'en' %}Built with Jekyll &amp; hosted on GitHub Pages{% else %}基于 Jekyll 构建 · GitHub Pages 托管{% endif %}
+      </p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,28 @@
+# 主要研究方向
+- key: ml-materials
+  icon: brain
+  title_zh: 机器学习与材料设计
+  title_en: Machine Learning for Materials
+  desc_zh: 构建面向材料体系的图神经网络、生成模型与表示学习算法，实现从成分-结构到性能的精准预测与逆向设计。
+  desc_en: Developing graph neural networks, generative models and representation learning for materials, enabling accurate prediction and inverse design from composition-structure to properties.
+
+- key: high-throughput
+  icon: cpu
+  title_zh: 高通量计算与材料数据
+  title_en: High-throughput Computation & Materials Data
+  desc_zh: 建设高通量第一性原理计算流程与标准化材料数据库，为数据驱动研究提供高质量数据支撑。
+  desc_en: Building high-throughput first-principles workflows and standardized materials databases to provide high-quality data for data-driven research.
+
+- key: llm-materials
+  icon: robot
+  title_zh: 大语言模型与材料知识
+  title_en: LLMs for Materials Knowledge
+  desc_zh: 利用大语言模型实现材料文献与实验数据的自动抽取、知识组织与智能问答，加速科研范式变革。
+  desc_en: Using large language models to automatically extract literature and experimental data, organize knowledge and enable intelligent Q&A, accelerating the transformation of research paradigm.
+
+- key: experiment
+  icon: flask
+  title_zh: 实验闭环与材料优化
+  title_en: Closed-loop Experimental Optimization
+  desc_zh: 结合主动学习与自动化实验平台，构建「计算-实验」闭环，实现材料配方与工艺的快速优化。
+  desc_en: Combining active learning with automated experimental platforms to build a "computation-experiment" loop for rapid optimization of material formulations and processes.

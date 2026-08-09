@@ -1,0 +1,33 @@
+{% assign lang = page.lang | default: site.default_lang %}
+{% assign ui = site.data.ui[lang] %}
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a class="brand" href="{% if lang == 'en' %}/en/{% else %}/{% endif %}">
+      <img class="brand-logo" src="{{ '/assets/images/logo.svg' | relative_url }}" alt="WANG Group logo">
+      <span class="brand-text">
+        <span class="brand-name">WANG Group</span>
+        <span class="brand-sub">AI-assisted Materials Design &amp; Innovation</span>
+      </span>
+    </a>
+
+    <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+      <ul class="nav-list">
+        {% for item in site.data.nav %}
+        <li>
+          <a href="{% if lang == 'en' %}{{ item.url_en }}{% else %}{{ item.url_zh }}{% endif %}"
+             class="nav-link{% if page.active == item.key %} active{% endif %}">
+            {% if lang == 'en' %}{{ item.en }}{% else %}{{ item.zh }}{% endif %}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      {% include lang-switcher.html %}
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>

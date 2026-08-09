@@ -1,0 +1,120 @@
+---
+layout: default
+---
+{% assign ui = site.data.ui[page.lang] %}
+{% assign lang = page.lang | default: site.default_lang %}
+
+<!-- ============ Hero ============ -->
+<section class="hero">
+  <div class="hero-pattern" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div class="hero-badge">{{ ui.home.hero_badge }}</div>
+    <h1 class="hero-title">{{ ui.home.hero_title }}</h1>
+    <p class="hero-lead">{{ ui.home.hero_subtitle }}</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{% if lang == 'en' %}/en/projects/{% else %}/projects/{% endif %}">{{ ui.home.hero_btn_projects }}</a>
+      <a class="btn btn-ghost" href="{% if lang == 'en' %}/en/join/{% else %}/join/{% endif %}">{{ ui.home.hero_btn_join }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Research Directions ============ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">{{ ui.home.section_directions_title }}</h2>
+      <p class="section-desc">{{ ui.home.section_directions_desc }}</p>
+    </div>
+    <div class="direction-grid">
+      {% for d in site.data.directions %}
+      <div class="direction-card">
+        <div class="direction-icon">
+          {% include icon.html name=d.icon %}
+        </div>
+        <h3>{% if lang == 'en' %}{{ d.title_en }}{% else %}{{ d.title_zh }}{% endif %}</h3>
+        <p>{% if lang == 'en' %}{{ d.desc_en }}{% else %}{{ d.desc_zh }}{% endif %}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ Featured Projects ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">{{ ui.home.section_featured_title }}</h2>
+      <a class="section-more" href="{% if lang == 'en' %}/en/projects/{% else %}/projects/{% endif %}">{{ ui.home.btn_view_all }} →</a>
+    </div>
+    <div class="project-grid">
+      {% for p in site.data.projects %}
+      <article class="project-card">
+        <div class="project-card-top">
+          <div class="project-icon">
+            {% include icon.html name=p.icon %}
+          </div>
+          <span class="project-status">{% if lang == 'en' %}{{ p.status_en }}{% else %}{{ p.status_zh }}{% endif %}</span>
+        </div>
+        <h3 class="project-title">{% if lang == 'en' %}{{ p.title_en }}{% else %}{{ p.title_zh }}{% endif %}</h3>
+        <p class="project-desc">{% if lang == 'en' %}{{ p.desc_en }}{% else %}{{ p.desc_zh }}{% endif %}</p>
+        <div class="project-tags">
+          {% if lang == 'en' %}
+            {% for t in p.tags_en %}<span class="tag">{{ t }}</span>{% endfor %}
+          {% else %}
+            {% for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ Team Overview ============ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">{{ ui.home.section_team_title }}</h2>
+      <p class="section-desc">{{ ui.home.section_team_desc }}</p>
+    </div>
+    {% assign current_members = site.data.members | where: "status", "current" %}
+    <div class="team-strip">
+      {% for m in current_members limit: 6 %}
+      <a class="team-chip" href="{% if lang == 'en' %}/en/members/{% else %}/members/{% endif %}">
+        <img src="{{ m.photo | relative_url }}" alt="{% if lang == 'en' %}{{ m.name_en }}{% else %}{{ m.name }}{% endif %}">
+        <span class="team-chip-name">{% if lang == 'en' %}{{ m.name_en }}{% else %}{{ m.name }}{% endif %}</span>
+        <span class="team-chip-role">{% if lang == 'en' %}{{ m.role_en }}{% else %}{{ m.role_zh }}{% endif %}</span>
+      </a>
+      {% endfor %}
+      <a class="team-chip team-chip-more" href="{% if lang == 'en' %}/en/members/{% else %}/members/{% endif %}">
+        <span class="team-chip-more-icon">+</span>
+        <span class="team-chip-name">{{ ui.home.btn_view_all }}</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ News ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">{{ ui.home.section_news_title }}</h2>
+      <a class="section-more" href="{% if lang == 'en' %}/en/news/{% else %}/news/{% endif %}">{{ ui.home.btn_view_all }} →</a>
+    </div>
+    <div class="news-list">
+      {% assign items = site.data.news | sort: "date" | reverse %}
+      {% for n in items limit: 4 %}
+      <article class="news-item">
+        <time class="news-date" datetime="{{ n.date }}">
+          {{ n.date | date: "%Y-%m-%d" }}
+        </time>
+        <div class="news-body">
+          <span class="news-tag">{% if lang == 'en' %}{{ n.tag_en }}{% else %}{{ n.tag_zh }}{% endif %}</span>
+          <h3 class="news-title">{% if lang == 'en' %}{{ n.title_en }}{% else %}{{ n.title_zh }}{% endif %}</h3>
+          <p class="news-excerpt">{% if lang == 'en' %}{{ n.content_en | truncatewords: 40 }}{% else %}{{ n.content_zh | truncate: 80 }}{% endif %}</p>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

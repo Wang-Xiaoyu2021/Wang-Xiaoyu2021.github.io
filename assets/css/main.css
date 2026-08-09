@@ -174,7 +174,7 @@ p { margin: 0 0 1em; }
   mask-image: radial-gradient(ellipse at 70% 20%, #000 30%, transparent 75%);
   -webkit-mask-image: radial-gradient(ellipse at 70% 20%, #000 30%, transparent 75%);
 }
-.hero-inner { position: relative; padding: 96px 24px 104px; max-width: 900px; }
+.hero-inner { position: relative; padding: 96px 24px 104px; }
 .hero-badge {
   display: inline-flex;
   align-items: center;

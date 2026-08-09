@@ -31,8 +31,8 @@ permalink: /en/about/
         <div class="stat-label">h-index</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num"><span>1</span></div>
-        <div class="stat-label">Nature Papers</div>
+        <div class="stat-num"><span>6</span></div>
+        <div class="stat-label">Nature Family &amp; Science</div>
       </div>
     </div>
   </div>

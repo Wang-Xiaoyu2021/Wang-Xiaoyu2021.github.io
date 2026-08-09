@@ -31,8 +31,8 @@ permalink: /about/
         <div class="stat-label">h 指数</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num"><span>1</span></div>
-        <div class="stat-label">Nature 论文</div>
+        <div class="stat-num"><span>6</span></div>
+        <div class="stat-label">Nature 家族 &amp; Science 论文</div>
       </div>
     </div>
   </div>

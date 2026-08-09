@@ -220,8 +220,6 @@ p { margin: 0 0 1em; }
   grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
   gap: 22px;
 }
-/* 关于页：方向卡片与上方标题区（section-head max-width:760px）右对齐 */
-.about-section .direction-grid { max-width: 760px; }
 .direction-card {
   background: #fff;
   border: 1px solid var(--color-border);
@@ -649,7 +647,7 @@ p { margin: 0 0 1em; }
 .contact-card a { font-weight: 600; }
 
 /* ---------- 关于页 stats ---------- */
-.stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 18px; margin: 8px 0 8px; max-width: 880px; }
+.stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 18px; margin: 8px 0 8px; }
 .stat-card {
   text-align: center;
   padding: 26px 16px;
@@ -663,7 +661,7 @@ p { margin: 0 0 1em; }
 .stat-label { font-size: 13.5px; color: var(--color-text-light); margin-top: 6px; }
 
 /* ---------- 个人履历（时间轴） ---------- */
-.cv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; max-width: 760px; }
+.cv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
 .cv-block-title {
   font-size: 20px;
   margin-bottom: 24px;
@@ -751,7 +749,6 @@ p { margin: 0 0 1em; }
 /* ============================================================
    通用正文 / Markdown
    ============================================================ */
-.prose { max-width: 880px; }
 .prose h2 { font-size: 22px; margin: 28px 0 14px; }
 .prose h3 { font-size: 18px; margin: 22px 0 10px; }
 .prose ul, .prose ol { padding-left: 22px; }

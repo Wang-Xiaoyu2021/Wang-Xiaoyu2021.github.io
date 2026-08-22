@@ -1,5 +1,70 @@
 # 新闻动态数据（按 date 降序展示）
 # 来源：吉林大学新闻中心 / 合作团队公开报道（url 为原文链接）
+- date: 2026-07-30
+  tag_zh: 论文
+  tag_en: Paper
+  title_zh: "Nature Photonics | 二维钙钛矿 p-n 类型转变实现高效稳定钙钛矿/晶硅叠层太阳能电池"
+  title_en: "Nature Photonics | Modulating p-n transition of 2D perovskites for efficient and stable perovskite/Si tandem photovoltaics"
+  content_zh: >
+    团队与上海交通大学溥渊未来技术学院未来光伏中心（赵一新教授）等合作，在 Nature Photonics
+    发表题为 "Modulating p-n transition of two-dimensional perovskites for efficient and stable
+    perovskite/Si tandem photovoltaics" 的研究论文。研究提出分子偶极矩调控策略，实现二维钙钛矿
+    由本征 p 型向 n 型导电转变，构筑与宽带隙三维钙钛矿匹配的高效二维/三维异质结界面。
+    基于该策略，1.68 eV 宽带隙 p-i-n 钙钛矿电池效率由 20.19% 提升至 23.40%，钙钛矿/晶硅叠层
+    电池实现 33.64% 的认证光电转换效率，并在最大功率点连续运行 1100 小时后仍保持 92% 的初始效率。
+    吉林大学王啸宇为论文共同作者之一。
+  content_en: >
+    In collaboration with the Future Photovoltaics Research Center of Zhiyuan Future Technology
+    College at Shanghai Jiao Tong University (Prof. Yixin Zhao) and other partners, the team
+    published "Modulating p-n transition of two-dimensional perovskites for efficient and stable
+    perovskite/Si tandem photovoltaics" in Nature Photonics. A molecular dipole engineering strategy
+    converts 2D perovskites from intrinsically p-type to n-type, building high-quality 2D/3D
+    heterojunctions matched with wide-bandgap 3D perovskites. The 1.68 eV p-i-n perovskite cell
+    efficiency increased from 20.19% to 23.40%, and the perovskite/Si tandem achieved a certified
+    efficiency of 33.64%, retaining 92% of its initial efficiency after 1100 hours of
+    maximum-power-point tracking. Xiaoyu Wang (Jilin University) is a co-author of the paper.
+  url: https://gift.sjtu.edu.cn/news/1159
+
+- date: 2026-07-01
+  tag_zh: 论文
+  tag_en: Paper
+  title_zh: "Science Bulletin | 数据驱动轻元素替换实现拓扑材料向半导体的理论预测（封面故事）"
+  title_en: "Science Bulletin | Data-driven light-element substitution predicts semiconductors from topological materials (Cover Story)"
+  content_zh: >
+    课题组在 Science Bulletin 发表题为 "Theoretical prediction of semiconductors by data driven
+    light-element substitution in topological materials" 的研究论文（71 卷 3631-3641 页），
+    并被选为当期封面故事。研究基于数据驱动的轻元素替换策略，在拓扑材料体系中系统预测了具有
+    可调带隙、高载流子迁移率与良好稳定性的新型半导体，为高性能半导体材料的理性设计提供了新路径。
+    吉林大学博士研究生周岩松为论文第一作者，王啸宇等为共同作者。
+  content_en: >
+    The group published "Theoretical prediction of semiconductors by data driven light-element
+    substitution in topological materials" in Science Bulletin (71, 3631-3641), selected as the
+    cover story of the issue. Using a data-driven light-element substitution strategy, the study
+    systematically predicts novel semiconductors with tunable band gaps, high carrier mobility and
+    good stability from topological materials, offering a new route for the rational design of
+    high-performance semiconductors. Yansong Zhou, a PhD student at Jilin University, is the first
+    author; Xiaoyu Wang and others are co-authors.
+  url: https://www.sciencedirect.com/journal/science-bulletin/about/cover-stories/novel-semiconductors-spawned-by-topological-materials
+
+- date: 2025-04-24
+  tag_zh: 论文
+  tag_en: Paper
+  title_zh: "National Science Review | 自组装分子在卤化物钙钛矿光电器件中的原子尺度作用机制综述"
+  title_en: "National Science Review | Review on the atomic-scale role of self-assembled molecules in halide perovskite optoelectronics"
+  content_zh: >
+    王啸宇等在 National Science Review 发表综述 "Role of self-assembled molecules in halide
+    perovskite optoelectronics: an atomic-scale perspective"（12 卷 5 期, nwaf150），从原子尺度
+    系统阐述了自组装分子在卤化物钙钛矿光电器件中的缺陷钝化、偶极调控与载流子输运作用机制，
+    为高效稳定钙钛矿器件的分子设计提供了系统性的理论框架。
+  content_en: >
+    Xiaoyu Wang et al. published a review entitled "Role of self-assembled molecules in halide
+    perovskite optoelectronics: an atomic-scale perspective" in National Science Review (12(5),
+    nwaf150), systematically addressing the atomic-scale roles of self-assembled molecules in
+    defect passivation, dipole modulation and carrier transport of halide perovskite optoelectronics,
+    providing a comprehensive framework for molecular design of efficient and stable perovskite
+    devices.
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12096312/
+
 - date: 2024-10-16
   tag_zh: 论文
   tag_en: Paper
